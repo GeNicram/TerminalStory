@@ -185,7 +185,7 @@ void Render::Title() {
   mvwprintw(w, 2, 5, "aerial canon to protect town.");
   mvwprintw(w, 3, 5, "| arrows + space to shoot |");
   mvwprintw(w, 5, 5, "Order your people to rebuild town!");
-  mvwprintw(w, 6, 5, "|a - research; s - defence|");
+  mvwprintw(w, 6, 5, "|a - research; s - defense|");
   mvwprintw(w, 7, 5, "|z - houses;   x - army   |");
   wrefresh(w);
   sleep(3);
